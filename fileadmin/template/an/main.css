@@ -1,0 +1,190 @@
+/* Stylesheet for amerikanetz.de | copyright 2004 c-we | mailto:c-we@netbla.de*/
+
+body, table, tr, td, a {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+
+/* anker definitions */
+a:link {
+	text-decoration: none;
+	color: #069;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #069;
+}
+	
+a:active {
+	text-decoration: none;
+	color: #069;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #800;
+}
+
+a.menu1_MainLink {
+	text-decoration: none;
+	color: #069;
+}
+
+a.menu1_MainLink:hover {
+	text-decoration: underline;
+	color: #800;
+}
+
+a.menu1_SubLink {
+	font-size: 11px;
+	text-decoration: none;
+	color: #069;
+}
+
+a.menu1_SubLink:hover {
+	text-decoration: underline;
+	color: #800;
+}
+
+
+a.footer {
+	color: #666;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+a.footer:hover {
+	text-decoration: underline;
+}
+
+/* */
+.head_Bg {
+	background-color:#CEDBDE;
+}
+
+.menu1_TopBg {
+	background-color : #CEDBDE;
+}
+
+.menu1_Line {
+	background-color: #CEDBDE;
+}
+
+.menu2_Bg {
+	background-color: #E7EBEF;
+	
+}
+
+.main_Tbl {
+	border-top: 1px solid #999;
+	border-right:  1px solid #999;
+	border-left:  1px solid #999;
+	border-bottom:   1px solid #999;
+}
+
+.main_SpanTbl {
+	background-color: #999;
+}
+
+.main_headline {
+	font-size: 22px;
+	font-weight: bold;
+	color: #800;
+	padding-left: 8px;
+}
+
+.main_SubHeadline {
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	padding-left: 8px;
+}
+
+.cont_Headline {
+	font-size: 14px;
+	color: #999;
+	font-weight: bold;
+}
+
+.cont_SubHeadline {
+	font-size: 11px;
+	color: #333;
+	font-weight: bold;
+}
+
+.cont_Line {
+	background-color: #D6D3CE;
+}
+
+.content {
+	font-size: 12px;
+	text-align: justify;
+}
+
+.footer_Line {
+	background-color: #999;
+}
+
+.footer_Bg {
+background-color: #CEDBDE;
+}
+
+.footer_TxTop {
+	font-size: 10px;
+}
+
+.footer_Tx {
+	color: #666;
+	font-size: 11px;
+}
+
+.menu_Trennlinie {
+	background-color: #c8c8c8;
+}
+
+/* Definitionen fuer die Druck Version */
+
+.print_main_headline {
+	font-size: 22px;
+	font-weight: bold;
+	color: #000;
+	padding-left: 8px;
+}
+
+.print_main_SubHeadline {
+	font-size: 13px;
+	font-weight: bold;
+	color: #00;
+	padding-left: 8px;
+}
+
+.print_cont_Headline {
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+}
+
+.print_cont_SubHeadline {
+	font-size: 11px;
+	color: #000;
+	font-weight: bold;
+}
+
+.print_content {
+	font-size: 12px;
+}
+
+.print_footer_Tx {
+	color: #000;
+	font-size: 11px;
+}
+
+.red {
+	color: #800;
+}
+
+.topContent .date {
+	padding-top: 10px;
+}
