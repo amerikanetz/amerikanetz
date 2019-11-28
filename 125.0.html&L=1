@@ -78,7 +78,21 @@ function linkTo_UnCryptMailto(s)	{	//
 </script>
 
 
-</head>
+<!-- matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setcustomdimension" should be called before "trackpageview" */
+  _paq.push(['trackpageview']);
+  _paq.push(['enablelinktracking']);
+  (function() {
+    var u="https://adsrv.innocraft.cloud/";
+    _paq.push(['settrackerurl', u+'piwik.php']);
+    _paq.push(['setsiteid', '48']);
+    var d=document, g=d.createelement('script'), s=d.getelementsbytagname('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/adsrv.innocraft.cloud/piwik.js'; s.parentnode.insertbefore(g,s);
+  })();
+</script>
+<!-- end matomo code --></head>
 <body bgcolor="#FFFFFF">
 
 
