@@ -7,7 +7,7 @@ body, table, tr, td, a {
 }
 a[href*="starseite"] {
     display: none;
-}
+} 
 /* anker definitions */
 a:link {
 	text-decoration: none;
